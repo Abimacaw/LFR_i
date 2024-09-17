@@ -8,12 +8,12 @@ This repository contains the code and documentation for a Line Follower Robot pr
 - Utilizes basic control algorithms to ensure smooth movement along the path
 
 ## **Components Used**
-Microcontroller: Arduino UNO (e.g., Arduino/ESP32/AVR, based on your project) 
-Sensors: Infrared (IR) sensors to detect the line (single or array of IR sensors based on the size of your robot)
-Motors: Two DC motors for driving the wheels
-Motor Driver: L298N or similar motor driver module to control motor speed and direction
-Power Supply: 11.1V Lithium ion battery ( based on the spec of your components especially motor)
-Chassis: Robot frame for mounting components
+- Microcontroller: Arduino UNO (e.g., Arduino/ESP32/AVR, based on your project) 
+- Sensors: Infrared (IR) sensors to detect the line (single or array of IR sensors based on the size of your robot)
+- Motors: Two DC motors for driving the wheels
+- Motor Driver: L298N or similar motor driver module to control motor speed and direction
+- Power Supply: 11.1V Lithium ion battery ( based on the spec of your components especially motor)
+- Chassis: Robot frame for mounting components
 
 ## **How It Works**
 The infrared sensors are positioned at the front of the robot to detect the presence of a line.
