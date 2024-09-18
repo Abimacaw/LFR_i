@@ -28,5 +28,32 @@ The code uses basic control logic to read sensor inputs and adjust the motor out
 - Motor Control: Based on the sensor input, the motor speeds are adjusted to steer the robot. The motor driver receives signals from the microcontroller to change the speed and direction of the motors.
 - A simple algorithm checks the sensor states and adjusts the motor speeds to maintain the robot on the line.
 
+## **How to Use 🤖**
+1. **Clone the repository**:
+   - Open your terminal and run the following command:
+     ```bash
+     git clone https://github.com/Abimacaw/LFR_i.git
+     ```
+
+2. **Open the code in your IDE**:
+   - Open the `.ino` file from the cloned repository using the Arduino IDE.
+   - Or Save this as .cpp file run in VS code with all libraries installed.
+
+3. **Connect the microcontroller to your computer**:
+   - Make sure your Arduino UNO (or the microcontroller you're using) is connected via USB.
+
+4. **Install necessary libraries**:
+   - Ensure you have all the required libraries installed in your Arduino IDE, including the motor driver library.
+
+5. **Upload the code**:
+   - Upload the code to your microcontroller.
+
+6. **Assemble the robot**:
+   - Connect the motors, sensors, and motor driver as per the wiring diagram in your robot setup.
+   - Attach the power supply.
+
+7. **Run the robot**:
+   - Place the robot on a track with a black line on a white background, and power it on. The robot should automatically follow the line.
+
 ## Future Improvements
 Implement PID control for more accurate line following.
